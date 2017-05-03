@@ -225,10 +225,10 @@ var app = {
         $('#arrowRight').off("click");
     },
     loadComplete: function() {
-        $('#splashScreen').hide();
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
+        $('#splashScreen').hide();
         var contentFrame = document.getElementById('contentFrame');
         contentFrame.contentDocument.body.onunload = app.loadingStart;
         $('#alertBlock').html('');
