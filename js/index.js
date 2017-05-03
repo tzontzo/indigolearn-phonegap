@@ -225,7 +225,7 @@ var app = {
         $('#arrowRight').off("click");
     },
     loadComplete: function() {
-        $('#splashScreen').hide();
+
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
@@ -237,6 +237,7 @@ var app = {
         if ($('nav#leftColumn ol.thinMainNav').hasClass('hoverMainNav')) {
             closeThinNav();
         }
+        $('#splashScreen').hide();
         app.enableRefreshHeader();
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
