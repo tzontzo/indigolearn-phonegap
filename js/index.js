@@ -185,7 +185,9 @@ var app = {
         if (app.checkConnection()) {
             //connectionTimeout = setTimeout(app.checkTimeout,connectionTimeoutSeconds*1000);
             app.toggleLoader(true);
-
+            if (isPageLoaded){
+                $('#splashScreen').hide();
+            }
             if (isFirst) {
                 app.updateStatusMessage('Loading...');
                 isFirst = false;
@@ -228,10 +230,8 @@ var app = {
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
-
         var contentFrame = document.getElementById('contentFrame');
         contentFrame.contentDocument.body.onunload = app.loadingStart;
-        $('#splashScreen').hide();
         $('#alertBlock').html('');
         app.toggleLoader(false);
         $(window).scrollTop(0);
