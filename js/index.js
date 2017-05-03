@@ -190,7 +190,6 @@ var app = {
                 isFirst = false;
             }
         }
-        $('#splashScreen').hide();
     },
     loadPrevious: function() {
         app.toggleLoader(true);
@@ -237,6 +236,7 @@ var app = {
             closeThinNav();
         }
         app.enableRefreshHeader();
+        $('#splashScreen').hide();
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
     },
