@@ -225,6 +225,7 @@ var app = {
         $('#arrowRight').off("click");
     },
     loadComplete: function() {
+        $('#splashScreen').hide();
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
@@ -1486,6 +1487,6 @@ $(document).ready(function() {
         $('.editorContainer').hide();
         editor.destroy();
     });
-
+    $('#splashScreen').css({width: $(window).width(), height: $(window).height()});
     var globalWindowHeight = $(window).height();
 });

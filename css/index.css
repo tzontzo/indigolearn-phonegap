@@ -67,3 +67,44 @@ nav#leftColumn ol.thinMainNav{height:100%;margin-left:0;top:44px}
     margin: 10px 7px 10px 0;
     line-height: 28px;
 }
+
+#splashScreen{
+    position: absolute;
+}
+@media (max-width: 1920px) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxxhdpi-screen.png')}
+}
+@media (max-width: 1600px) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxhdpi-screen.png')}
+}
+@media (max-width: 1280px) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xhdpi-screen.png')}
+}
+@media (max-width: 800px) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-hdpi-screen.png')}
+}
+@media (max-width: 480) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-mdpi-screen.png')}
+}
+@media (max-width: 320) and (orientation: landscape) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-ldpi-screen.png')}
+}
+@media (max-width: 1280) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxxhdpi-screen.png')}
+}
+@media (max-width: 960) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxhdpi-screen.png')}
+}
+@media (max-width: 720) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xhdpi-screen.png')}
+}
+@media (max-width: 480) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-hdpi-screen.png')}
+}
+@media (max-width: 320) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-mdpi-screen.png')}
+}
+@media (max-width: 240) and (orientation: portrait) {
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-ldpi-screen.png')}
+}
+
