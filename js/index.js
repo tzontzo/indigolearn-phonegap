@@ -181,7 +181,6 @@ var app = {
     loadingStart: function() {
         app.updateStatusMessage('');
         isPageLoaded = false;
-
         if (app.checkConnection()) {
             //connectionTimeout = setTimeout(app.checkTimeout,connectionTimeoutSeconds*1000);
             app.toggleLoader(true);
@@ -191,6 +190,7 @@ var app = {
                 isFirst = false;
             }
         }
+        $('#splashScreen').hide();
     },
     loadPrevious: function() {
         app.toggleLoader(true);
@@ -225,7 +225,6 @@ var app = {
         $('#arrowRight').off("click");
     },
     loadComplete: function() {
-
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
