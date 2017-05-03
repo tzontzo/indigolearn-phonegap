@@ -237,7 +237,6 @@ var app = {
         if ($('nav#leftColumn ol.thinMainNav').hasClass('hoverMainNav')) {
             closeThinNav();
         }
-        $('#splashScreen').hide();
         app.enableRefreshHeader();
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
