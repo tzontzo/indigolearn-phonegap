@@ -72,39 +72,39 @@ nav#leftColumn ol.thinMainNav{height:100%;margin-left:0;top:44px}
     position: absolute;
 }
 @media (max-width: 1920px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxxhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xxxhdpi-screen.png')}
 }
 @media (max-width: 1600px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xxhdpi-screen.png')}
 }
 @media (max-width: 1280px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xhdpi-screen.png')}
 }
 @media (max-width: 800px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-hdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-hdpi-screen.png')}
 }
 @media (max-width: 480px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-mdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-mdpi-screen.png')}
 }
 @media (max-width: 320px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-ldpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-ldpi-screen.png')}
 }
 @media (max-width: 1280px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxxhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xxxhdpi-screen.png')}
 }
 @media (max-width: 960px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xxhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xxhdpi-screen.png')}
 }
 @media (max-width: 720px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-xhdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-xhdpi-screen.png')}
 }
 @media (max-width: 480px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-hdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-hdpi-screen.png')}
 }
 @media (max-width: 320px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-mdpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-mdpi-screen.png')}
 }
 @media (max-width: 240px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../res/screen/android/drawable-land-ldpi-screen.png')}
+    #splashScreen {background-image: url('cdvfile:// ... android_assets/ ... res/screen/android/drawable-land-ldpi-screen.png')}
 }
 
