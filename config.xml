@@ -7,6 +7,9 @@
     <author email="info@indigolearn.com" href="http://www.indigolearn.com">
         IndigoLearn
     </author>
+    <gap:config-file platform="android" parent="/manifest">
+        <application android:debuggable="true" />
+    </gap:config-file>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
@@ -124,7 +127,4 @@
     <plugin name="phonegap-plugin-push" spec="~1.8.4">
         <variable name="SENDER_ID" value="1033995846901" />
     </plugin>
-    <gap:config-file platform="android" parent="/manifest">
-        <application android:debuggable="true" />
-    </gap:config-file>
 </widget>
