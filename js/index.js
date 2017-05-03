@@ -228,9 +228,10 @@ var app = {
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
-        $('#splashScreen').hide();
+
         var contentFrame = document.getElementById('contentFrame');
         contentFrame.contentDocument.body.onunload = app.loadingStart;
+        $('#splashScreen').hide();
         $('#alertBlock').html('');
         app.toggleLoader(false);
         $(window).scrollTop(0);
