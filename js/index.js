@@ -185,9 +185,7 @@ var app = {
         if (app.checkConnection()) {
             //connectionTimeout = setTimeout(app.checkTimeout,connectionTimeoutSeconds*1000);
             app.toggleLoader(true);
-            if (isPageLoaded){
-                $('#splashScreen').hide();
-            }
+
             if (isFirst) {
                 app.updateStatusMessage('Loading...');
                 isFirst = false;
@@ -227,6 +225,7 @@ var app = {
         $('#arrowRight').off("click");
     },
     loadComplete: function() {
+        $('#splashScreen').hide();
         app.sendViewportData();
         console.log('Sending viewport data');
         isPageLoaded = true;
