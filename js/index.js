@@ -236,7 +236,7 @@ var app = {
             closeThinNav();
         }
         app.enableRefreshHeader();
-        $('#splashScreen').hide();
+        
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
     },
@@ -1486,6 +1486,6 @@ $(document).ready(function() {
         $('.editorContainer').hide();
         editor.destroy();
     });
-    $('#splashScreen').css({width: $(window).width(), height: $(window).height()});
+    
     var globalWindowHeight = $(window).height();
 });
