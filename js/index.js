@@ -1476,7 +1476,7 @@ $(document).ready(function() {
 
     $('body, #contentFrame, #loadingOverlay').css({
         width: $(window).width(),
-        height: $(window).height()
+        height: $(window).height() - (navigator.userAgent.match(/Android/i) ? 0 : 20)
     });
     $('header').css('width', $(window).width());
 
