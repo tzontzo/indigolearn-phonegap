@@ -7,6 +7,9 @@
     <author email="info@indigolearn.com" href="http://www.indigolearn.com">
         IndigoLearn
     </author>
+    <gap:config-file platform="android" parent="/manifest">
+        <application android:debuggable="true" />
+    </gap:config-file>
     <content src="index.html" />
     <preference name="LoadUrlTimeoutValue" value="70000"/>
     <preference name="DisallowOverscroll" value="true" />
