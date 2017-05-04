@@ -73,6 +73,7 @@ var app = {
                 $(this).addClass('cross');
             });
         });
+        navigator.splashscreen.hide();
         //console.log("iOS version: "+window.device.version);
     },
 
