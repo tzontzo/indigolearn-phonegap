@@ -236,11 +236,13 @@ var app = {
             closeThinNav();
         }
         app.enableRefreshHeader();
+        $('#splashScreen').fadeOut(100);
         //$('#splashScreen').hide();
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
     },
     receiveExternalMessage: function(data, origin) {
+        $('#splashScreen').fadeOut(100);
         switch (data.method) {
             case 'toggleLoader':
                 if (data.action == 'start') {
