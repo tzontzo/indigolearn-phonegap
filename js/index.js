@@ -236,7 +236,7 @@ var app = {
             closeThinNav();
         }
         app.enableRefreshHeader();
-        $('#splashScreen').hide();
+        //$('#splashScreen').hide();
         //if(!$('header').is(':visible'))
         //console.log("Page history: "+pageHistory);
     },
