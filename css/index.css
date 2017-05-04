@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding:0px;
     width:100%;
-    background: #404040;
+    background-size: cover;
 }
 
 /*#mobileAppWrapper{position:relative; z-index:2; width:100%}*/
