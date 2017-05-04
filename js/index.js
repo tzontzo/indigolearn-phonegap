@@ -241,7 +241,7 @@ var app = {
         //console.log("Page history: "+pageHistory);
     },
     receiveExternalMessage: function(data, origin) {
-        $('#splashScreen').fadeOut(100);
+        $('#splashScreen').fadeOut(700);
         switch (data.method) {
             case 'toggleLoader':
                 if (data.action == 'start') {
