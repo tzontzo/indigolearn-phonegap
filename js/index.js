@@ -242,6 +242,7 @@ var app = {
     },
     receiveExternalMessage: function(data, origin) {
         $('#splashScreen').fadeOut(700);
+        $('#infoBar').show();
         switch (data.method) {
             case 'toggleLoader':
                 if (data.action == 'start') {
@@ -1487,6 +1488,6 @@ $(document).ready(function() {
         $('.editorContainer').hide();
         editor.destroy();
     });
-    $('#splashScreen').css({width: $(window).width(), height: $(window).height()});
+    
     var globalWindowHeight = $(window).height();
 });

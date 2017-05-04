@@ -73,40 +73,41 @@ nav#leftColumn ol.thinMainNav{height:100%;margin-left:0;top:44px}
     z-index: 10000;
 }
 #splashScreen {background-size: cover}
+#infoBar {display: none}
 @media (max-width: 1920px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-xxxhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-xxxhdpi-screen.png')}
 }
 @media (max-width: 1600px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-xxhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-xxhdpi-screen.png')}
 }
 @media (max-width: 1280px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-xhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-xhdpi-screen.png')}
 }
 @media (max-width: 800px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-hdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-hdpi-screen.png')}
 }
 @media (max-width: 480px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-mdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-mdpi-screen.png')}
 }
 @media (max-width: 320px) and (orientation: landscape) {
-    #splashScreen {background-image: url('../splash_screens/drawable-land-ldpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-land-ldpi-screen.png')}
 }
 @media (max-width: 1280px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-xxxhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-xxxhdpi-screen.png')}
 }
 @media (max-width: 960px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-xxhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-xxhdpi-screen.png')}
 }
 @media (max-width: 720px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-xhdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-xhdpi-screen.png')}
 }
 @media (max-width: 480px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-hdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-hdpi-screen.png')}
 }
 @media (max-width: 320px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-mdpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-mdpi-screen.png')}
 }
 @media (max-width: 240px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../splash_screens/drawable-port-ldpi-screen.png')}
+    body {background-image: url('../splash_screens/drawable-port-ldpi-screen.png')}
 }
 
