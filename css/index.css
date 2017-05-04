@@ -96,10 +96,10 @@ nav#leftColumn ol.thinMainNav{height:100%;margin-left:0;top:44px}
     #splashScreen {background-image: url('../res/screen/android/drawable-land-xxhdpi-screen.png')}
 }
 @media (max-width: 720px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../android/drawable-land-xhdpi-screen.png')}
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-xhdpi-screen.png')}
 }
 @media (max-width: 480px) and (orientation: portrait) {
-    #splashScreen {background-image: url('../android/drawable-land-hdpi-screen.png')}
+    #splashScreen {background-image: url('../res/screen/android/drawable-land-hdpi-screen.png')}
 }
 @media (max-width: 320px) and (orientation: portrait) {
     #splashScreen {background-image: url('../res/screen/android/drawable-land-mdpi-screen.png')}
