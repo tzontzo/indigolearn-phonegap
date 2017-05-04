@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.indigolearn.app" version="1.03" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<widget id="com.indigolearn.app" version="1.04" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>IndigoLearn</name>
     <description>
         India’s premier e-learning portal for CA, CFA, CPA, Finance and Accounting courses
@@ -7,9 +7,6 @@
     <author email="info@indigolearn.com" href="http://www.indigolearn.com">
         IndigoLearn
     </author>
-    <gap:config-file platform="android" parent="/manifest">
-        <application android:debuggable="true" />
-    </gap:config-file>
     <content src="index.html" />
     <preference name="LoadUrlTimeoutValue" value="70000"/>
     <preference name="DisallowOverscroll" value="true" />

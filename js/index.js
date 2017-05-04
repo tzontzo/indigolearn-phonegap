@@ -243,6 +243,7 @@ var app = {
     receiveExternalMessage: function(data, origin) {
         $('#splashScreen').fadeOut(700);
         $('#infoBar, #contentFrame').fadeIn(700);
+        $('body').css('background', '#FFF');
         switch (data.method) {
             case 'toggleLoader':
                 if (data.action == 'start') {
