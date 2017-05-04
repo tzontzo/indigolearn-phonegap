@@ -242,7 +242,7 @@ var app = {
     },
     receiveExternalMessage: function(data, origin) {
         $('#splashScreen').fadeOut(700);
-        $('#infoBar').show();
+        $('#infoBar, #contentFrame').fadeIn(700);
         switch (data.method) {
             case 'toggleLoader':
                 if (data.action == 'start') {
