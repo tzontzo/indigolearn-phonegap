@@ -72,6 +72,7 @@ nav#leftColumn ol.thinMainNav{height:100%;margin-left:0;top:44px}
     position: absolute;
     z-index: 10000;
 }
+#splashScreen {background-size: cover}
 @media (max-width: 1920px) and (orientation: landscape) {
     #splashScreen {background-image: url('../splash_screens/drawable-land-xxxhdpi-screen.png')}
 }
